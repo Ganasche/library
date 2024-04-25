@@ -15,7 +15,7 @@ ENDTIME = "08:01:00"
 class reserve:
     def __init__(self):
         self.login_page = "https://passport2.chaoxing.com/mlogin?loginType=1&newversion=true&fid="
-        self.url = "https://reserve.chaoxing.com/front/third/apps/seatengine/list?deptIdEnc={}&seatId={}"
+        self.url = "https://reserve.chaoxing.com/front/third/apps/seatengine/index?seatId=772&enc=cd91b78c82a3ea12136ef8600cd478a4&fidEnc=e90d1ceac4edaadf"
         self.submit_url = "reserve.chaoxing.com/front/third/apps/seatengine/list?deptIdEnc=e90d1ceac4edaadf&seatId=772"
         self.seat_url = "https://office.chaoxing.com/front/third/apps/seatengine/select?id=1839&day=2024-04-26&backLevel=2&seatId=772&fidEnc=e90d1ceac4edaadf"
         self.login_url = "https://office.chaoxing.com/front/third/apps/seatengine/select?id=1839&day=2024-04-26&backLevel=2&seatId=772&fidEnc=e90d1ceac4edaadf"
