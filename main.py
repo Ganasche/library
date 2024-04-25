@@ -16,8 +16,8 @@ class reserve:
     def __init__(self):
         self.login_page = "https://passport2.chaoxing.com/mlogin?loginType=1&newversion=true&fid="
         self.url = "https://reserve.chaoxing.com/front/third/apps/seatengine/list?deptIdEnc={}&seatId={}"
-        self.submit_url = "https://reserve.chaoxing.com/data/apps/seat/submit"
-        self.seat_url = "https://reserve.chaoxing.com/data/apps/seat/getusedtimes"
+        self.submit_url = "reserve.chaoxing.com/front/third/apps/seatengine/list?deptIdEnc=e90d1ceac4edaadf&seatId=772"
+        self.seat_url = "reserve.chaoxing.com/front/third/apps/seatengine/list?deptIdEnc=e90d1ceac4edaadf&seatId=772"
         self.login_url = "https://passport2.chaoxing.com/fanyalogin"
         self.token = ""
         self.success_times = 0
